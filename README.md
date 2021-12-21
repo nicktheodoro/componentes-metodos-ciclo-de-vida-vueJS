@@ -1,1 +1,1 @@
-# -componentes-metodos-ciclo-de-vida-vueJS
+# Componentes-metodos-ciclo-de-vida-vueJS

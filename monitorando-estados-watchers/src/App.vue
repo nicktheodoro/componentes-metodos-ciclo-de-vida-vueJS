@@ -1,4 +1,3 @@
-
 <template>
 	<div id="app">
 		<input
@@ -41,14 +40,13 @@
 			text: [
 				"callApi",
 				function handler2(val, old) {
-					console.log("Hanlder2: ", val, old);
-
-					this.fetchApi("Hanlder 2", 3);
+					console.log("Handler2: ", val, old);
+					this.fetchApi("Handler 2", 3);
 				},
 				{
 					handler: function handler3(val, old) {
-						console.log("Hanlder3: ", val, old);
-						this.fetchApi("Hanlder 3", 5);
+						console.log("Handler3: ", val, old);
+						this.fetchApi("Handler 3", 5);
 					},
 				},
 			],
